@@ -92,7 +92,7 @@ void init_relay8s()
 		Serial.print(F(" OK"));
 	}
 	Serial.print(F("\n\n"));
-}
+} // init_relay8s
 
 void loop()
 {
@@ -171,7 +171,9 @@ void mqttCallback(char *topic, byte *payload, unsigned int length)
 void setRelayStates(int board, int states)
 {
 	Wire.beginTransmission(I2C_ADDR[board]);
-	Wire.write(0x12);		// Select GPIOA
-	Wire.write(states); // Send value to bank A
+	// Select GPIOA
+	Wire.write(0x12);
+	// Send value to bank A
+	Wire.write(states);
 	Wire.endTransmission();
 } // setRelayStates
