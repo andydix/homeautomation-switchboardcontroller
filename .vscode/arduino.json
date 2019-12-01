@@ -2,5 +2,6 @@
     "sketch": "relay_controller.ino",
     "board": "arduino:avr:uno",
     "port": "COM5",
-    "output": "./build"
+    "output": "./build",
+    "programmer": "AVR ISP"
 }

@@ -3,21 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/code/arduino-1.8.5/portable/sketchbook/libraries/Ethernet2/src",
-                "C:/code/arduino-1.8.5/portable/sketchbook/libraries/PubSubClient/src",
-                "C:/code/arduino-1.8.5/hardware/arduino/avr/cores/arduino",
-                "C:/code/arduino-1.8.5/hardware/tools/avr/avr/include/**",
-                "C:/code/arduino-1.8.5/hardware/arduino/avr/libraries/**",
-                "C:/code/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2/include",
-                "C:/code/arduino-1.8.5/hardware/arduino/avr/variants/standard"
+                "${workspaceFolder}",
+                "C:/arduino-1.8.10/portable/sketchbook/libraries/**",
+                "C:/arduino-1.8.10/hardware/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "${default}"
         }
     ],
     "version": 4

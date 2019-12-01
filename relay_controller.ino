@@ -11,7 +11,7 @@
 	e.g. sending ascii 48 to topic switchboard/42 will activate channel 2 on board 6
 */
 
-#include <Ethernet2.h>
+#include <Ethernet.h>
 #include <PubSubClient.h>
 #include <SPI.h>
 #include <Wire.h>
